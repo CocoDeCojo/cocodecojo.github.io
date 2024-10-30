@@ -10,11 +10,9 @@ This is a sample blog post. You can talk about all sorts of fun things here.
 
 ### This is a header
 {% leaflet_map {"zoom" : 4 } %}
-
     {% leaflet_marker { "latitude" : 48.7596,
                        "longitude" : -113.787,
                        "popupContent" : "Glacier National Park, Montana"} %}
-
     {% leaflet_geojson {
         "type": "Feature",
         "properties": { "popupContent": "The whole state of North Dakota",
@@ -27,7 +25,6 @@ This is a sample blog post. You can talk about all sorts of fun things here.
                 [-96.58,  45.94],
                 [-104.03, 45.94],
                 [-104.05, 48.99] ]] } } %}
-
 {% endleaflet_map %}
 
 
